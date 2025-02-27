@@ -1,0 +1,169 @@
+:root { /* FAVOR USAR VARIAVEIS PARA COR, NAO USAR HEXADECIMAL DIRETO :) */
+    --primary-color: #0A2540;
+    --secondary-color: #457B9D;
+    --background-color: #f5f5f5;
+    --text-color: #FFFFFF;
+    --secondary-text: #B0BEC5;
+  }
+
+.name_apresentation {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color); /* Alterar se precisar */
+
+}
+
+.logo .idctec {
+    font-size: 128px;
+    color: var(--primary-color); /* Cor do texto principal */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: var(--primary-color); /* Cor do texto subtítulo */
+    border-left: 2px solid var(--primary-color); /* Barra vertical */
+    padding-left: 16px;
+    line-height: 1.5;
+}
+
+.foto_explain{
+    position: relative;
+    height: 100vh; /* Altura da seção igual à altura da tela */
+    background-image: url('./images/utfpr1.png'); /* Substitua pelo caminho da imagem */
+    background-size: cover; /* Cobre todo o espaço disponível */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o conteúdo no meio da seção */
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor do bloco */
+    max-width: 600px; /* Largura máxima do texto */
+    text-align: justify; /* Justifica o texto */
+    margin-left: 600px;
+}
+
+
+.materiais {
+    display: flex;
+    gap: 20px; /* Espaço entre os cards */
+}
+
+.card_materiais {
+    background-color: var(--background-color); /* Cor do fundo do card */
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center;
+}
+
+
+.icon img {
+    width: 450px; /* Tamanho do ícone */
+    height: 450px;
+    object-fit: contain;
+    opacity: 0.8; /* Transparência do ícone */
+}
+
+.parceiros {
+    display: flex;
+    gap: 20px;
+}
+
+.card_parceiros {
+    background-color: var(--background-color); /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle {
+    background-color: var(--background-color); /* Cor do círculo */
+    border-radius: 50%;
+    width: 100px;
+    height: 155px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    color: var(--primary-color);
+    margin: 10px 0 20px;
+}
+
+.content_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    gap: 100px;
+    margin: 50px auto;
+}
+
+.course-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    justify-content: space-between;
+  }
+  
+  .course-links a {
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .view-pdf {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+  }
+  
+  .view-pdf:hover {
+    background-color: white;
+    color: #007bff;
+  }
+  
+  .download-pdf {
+    background-color: #28a745;
+    color: white;
+    border: 2px solid #28a745;
+  }
+  
+  .download-pdf:hover {
+    background-color: white;
+    color: #28a745;
+  }
